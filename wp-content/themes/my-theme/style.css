@@ -7,38 +7,31 @@ Description: Find your audience.
 Template: twentyfifteen
 Version: 0.1;
 */
-
 .page-title {
-	line-height: 122px;
-	font-size: 48px;
-	color: #12A86F;
+  line-height: 122px;
+  font-size: 48px;
+  color: #12A86F;
 }
-
 nav {
-	height: 126px ;
-	background: white;
-	color: #12A86F;
-	-webkit-box-shadow: none;
-	box-shadow: none;
+  height: 126px ;
+  background: white;
+  color: #12A86F;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-
-
 .hero {
-	/*	background: url('./images/blvd.jpg');*/
-	background: #12A86F;
-	background-size: cover;
-	height: auto;
-	padding: 100px 35px;
-	color: white;
+  /*	background: url('./images/blvd.jpg');*/
+  background: #12A86F;
+  background-size: cover;
+  height: auto;
+  padding: 100px 35px;
+  color: white;
 }
-
 .notop {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
-
 .icon-image {
-	background-color: #12A86F;
-	color: white;
-	padding: 30px 0;
-
+  background-color: #12A86F;
+  color: white;
+  padding: 30px 0;
 }
