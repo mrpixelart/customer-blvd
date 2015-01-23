@@ -8,38 +8,14 @@ Template: twentyfifteen
 Version: 0.1;
 */
 
-.page-title {
-	line-height: 122px;
-	font-size: 48px;
-	color: #12A86F;
-	
-}
+//general helpers & interactions
+@import "globals.less";
 
-nav {
-	height: 126px ;
-	background: white;
-	color: #12A86F;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
+//typeface families & heirarchy
+@import "typography.less";
 
+//brand & UI variables
+@import "variables.less";
 
-.hero {
-	/*	background: url('./images/blvd.jpg');*/
-	background: #12A86F;
-	background-size: cover;
-	height: auto;
-	padding: 100px 35px;
-	color: white;
-}
-
-.notop {
-	margin-top: 0 !important;
-}
-
-.icon-image {
-	background-color: #12A86F;
-	color: white;
-	padding: 30px 0;
-
-}
+//individual templates
+@import "home-page.less";

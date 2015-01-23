@@ -43,7 +43,7 @@ get_header();
 							<div class="card">
 								<div class="card-image icon-image waves-effect waves-block waves-light">
 									<div class="valign-wrapper">
-										<i class="activator valign fa fa-4x <?php echo $image; ?>"></i>
+										<i class="activator valign icon-4x <?php echo $image; ?>"></i>
 									</div>
 								</div>
 								<div class="card-content">
