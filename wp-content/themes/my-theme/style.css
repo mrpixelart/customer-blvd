@@ -1,7 +1,34 @@
-/**
- * Template Name: Home Page
- */
+.page-title {
+	line-height: 122px;
+	font-size: 48px;
+	color: #12A86F;
+}
 
-body {
-	background: red;
+nav {
+	height: 126px ;
+	background: white;
+	color: #12A86F;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+
+.hero {
+	/*	background: url('./images/blvd.jpg');*/
+	background: #12A86F;
+	background-size: cover;
+	height: auto;
+	padding: 100px 35px;
+	color: white;
+}
+
+.notop {
+	margin-top: 0 !important;
+}
+
+.icon-image {
+	background-color: #12A86F;
+	color: white;
+	padding: 30px 0;
+
 }
