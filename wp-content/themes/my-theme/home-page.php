@@ -19,7 +19,7 @@ get_header();
 			<div class="container ">
 				<h1 class="notop"><?php the_field('hero_headline'); ?></h1>
 				<p class="lead "><?php the_field('hero_description'); ?></p>
-				<a class="waves-effect waves-light btn-large"><?php the_field('hero_button'); ?></a>
+				<a class="waves-effect waves-light teal darken-3 btn-large"><?php the_field('hero_button'); ?></a>
 			</div>
 		</div>
 		<div class="container">
