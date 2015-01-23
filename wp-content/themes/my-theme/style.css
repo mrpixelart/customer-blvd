@@ -39,37 +39,79 @@ Version: 0.1;
 .icon-4x {
   font-size: 4em;
 }
+.btn-cta {
+  background-color: #12a86f;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+.btn-cta:hover {
+  background-color: #0d7a51;
+}
 body {
   line-height: 1;
   font-weight: 300;
 }
-.lead {
-  font-size: 1.4rem;
-  line-height: 1.6;
-  font-weight: 300;
-}
 .page-title {
-  line-height: 122px;
-  font-size: 48px;
-  color: #12a86f;
+  margin-top: 40px;
 }
 nav {
   height: 126px ;
-  background: white;
+  background: none;
   color: #12a86f;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .hero {
-  /*	background: url('./images/blvd.jpg');*/
-  background: #12a86f;
   background-size: cover;
   height: auto;
-  padding: 100px 35px;
+  padding: 140px 35px;
   color: white;
+}
+.hero-image {
+  margin-top: -126px;
+  background: url('images/blvd.jpg');
+  height: auto;
+  background-size: cover;
+}
+.hero-solid {
+  background: #12a86f;
+}
+.hero-overlay {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(69, 69, 67, 0.82)), to(rgba(2, 39, 21, 0.57)));
+  background-image: -webkit-linear-gradient(top, rgba(69, 69, 67, 0.82), rgba(2, 39, 21, 0.57));
+  background-image: -moz-linear-gradient(top, rgba(69, 69, 67, 0.82), rgba(2, 39, 21, 0.57));
+  background-image: -o-linear-gradient(top, rgba(69, 69, 67, 0.82), rgba(2, 39, 21, 0.57));
+  background-image: -ms-linear-gradient(top, rgba(69, 69, 67, 0.82), rgba(2, 39, 21, 0.57));
+  background-image: linear-gradient(top, rgba(69, 69, 67, 0.82), rgba(2, 39, 21, 0.57));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#454543', EndColorStr='#022715');
+}
+.hero-headline {
+  padding: 100px 0;
+  border-bottom: 1px solid #d2d4d2;
+}
+.hero-cta {
+  padding-top: 80px;
+  font-size: 6rem;
+}
+.lead {
+  font-size: 1.8rem;
+  line-height: 2.4;
+  font-weight: 300;
 }
 .icon-image {
   background-color: #12a86f;
   color: white;
   padding: 30px 0;
+}
+.price-title {
+  font-size: 2em;
+}
+.card-description {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.card-price {
+  font-size: 48px;
+  font-weight: 800;
 }
