@@ -65,13 +65,13 @@ nav {
   background-size: cover;
   height: auto;
   padding: 140px 35px;
-  color: white;
 }
 .hero-image {
   margin-top: -126px;
   background: url('images/blvd.jpg');
   height: auto;
   background-size: cover;
+  color: white;
 }
 .hero-solid {
   background: #12a86f;
@@ -114,4 +114,5 @@ nav {
 .card-price {
   font-size: 48px;
   font-weight: 800;
+  color: #12a86f;
 }

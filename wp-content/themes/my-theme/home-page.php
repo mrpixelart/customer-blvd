@@ -68,14 +68,14 @@ get_header();
 			</ul>
 
 		<?php endif; ?>
-		<p><?php the_content(); ?></p>
+
 	</div>
 
 </div><!-- #content -->
 
 <div class="hero-solid">
 	<div class="container hero">
-
+	<h2 class="white-text"><?php the_field('hero_quote') ?></h2>
 	</div>
 </div>
 <div class="container">
@@ -109,8 +109,19 @@ get_header();
 		<h4><?php the_field('customer_service'); ?></h4>
 	</div>
 
+
+
 </div>
+
 </div>
+<div class="hero-solid">
+	<div class="container hero">
+		<div class="card-panel">
+			<p><?php the_content(); ?></p>
+		</div>
+	</div>
+</div>
+
 
 
 
