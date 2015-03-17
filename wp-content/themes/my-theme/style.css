@@ -13,6 +13,12 @@ Version: 0.1;
 .nobottom {
   margin-bottom: 0;
 }
+.bump-top {
+  margin-top: 40px;
+}
+.bump-bottom {
+  margin-bottom: 20px;
+}
 .bump-right {
   margin-right: 20px;
 }
@@ -94,6 +100,9 @@ nav {
 .hero-cta {
   padding-top: 80px;
   font-size: 6rem;
+}
+.center {
+  text-align: center;
 }
 .lead {
   font-size: 1.8rem;
